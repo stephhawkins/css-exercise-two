@@ -1,7 +1,48 @@
+/*/
+
+Table of Contents
+
+ /* CH01 - Typography */
+ /* CH02 - Header & Navigation */
+ /* CH03 - Links */
+ /* CH04 - Page Structure */
+
+/*/
+
+/* CH01 - Typography */
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fffae6;
+  color: #000;
+  font-size: 18px;
 }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.8;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+figcaption {
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+.author {
+  font-size: .8em;
+  line-height: 4;
+}
+
+.story-text {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* CH02 - Header & Navigation */
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -10,26 +51,20 @@ nav {
   width: 100%;
 }
 
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
 .left, .right {
   float: left;
   width: 50%;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .right {
   float: right;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
 }
 
 ul {
@@ -42,11 +77,36 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+/* CH03 - Links */
+
+a {
+  text-decoration: none;
 }
+
+a:link, a:visited {
+  color: #ff9900;
+}
+
+a:hover {
+  color: #ffeb99;
+}
+
+/* CH04 - Page Structure */
 
 .container {
   margin: 0 auto;
   width: 50%;
+  /* line-height: 1.5; */
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+article {
+  padding-top: 100px;
 }
